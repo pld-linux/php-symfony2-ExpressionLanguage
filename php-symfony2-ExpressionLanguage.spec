@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 ExpressionLanguage Component
 Name:		php-symfony2-ExpressionLanguage
-Version:	2.4.3
+Version:	2.4.4
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	113788162b69ea7383ea08342ba48e75
+# Source0-md5:	32b15cab6ca08922dd4afb8680bdb94c
 URL:		http://symfony.com/doc/2.4/components/expression_language/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
