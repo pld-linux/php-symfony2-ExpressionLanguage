@@ -32,7 +32,7 @@ value (mostly, but not limited to, Booleans).
 %setup -q -n expression-language-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoload.php .
+phpab -n -e '*/Tests/*' -o autoloader.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
