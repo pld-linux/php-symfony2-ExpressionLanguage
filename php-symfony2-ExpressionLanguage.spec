@@ -4,7 +4,7 @@
 Summary:	Symfony2 ExpressionLanguage Component
 Name:		php-symfony2-ExpressionLanguage
 Version:	2.7.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/expression-language/archive/v%{version}/%{package}-%{version}.tar.gz
@@ -17,7 +17,7 @@ Requires:	php(core) >= %{php_min_version}
 Requires:	php(ctype)
 Requires:	php(pcre)
 Requires:	php(spl)
-Requires:	php-pear
+Requires:	php-pear >= 4:1.3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
