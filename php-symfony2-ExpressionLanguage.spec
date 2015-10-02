@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 ExpressionLanguage Component
 Name:		php-symfony2-ExpressionLanguage
-Version:	2.7.3
+Version:	2.7.5
 Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/expression-language/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	8daf8c0a4d9c9c909094bf221d9f303f
+# Source0-md5:	253807b300cc6d8317be771cb05a70cb
 URL:		http://symfony.com/doc/2.7/components/expression_language/index.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
