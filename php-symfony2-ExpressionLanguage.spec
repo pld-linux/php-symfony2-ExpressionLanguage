@@ -11,13 +11,11 @@ Source0:	https://github.com/symfony/expression-language/archive/v%{version}/%{pa
 # Source0-md5:	7f9e69058a5950760395c09789e98fe2
 URL:		http://symfony.com/doc/2.7/components/expression_language/index.html
 BuildRequires:	phpab
-BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(ctype)
 Requires:	php(pcre)
 Requires:	php(spl)
-Requires:	php-pear >= 4:1.3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
