@@ -16,6 +16,7 @@ Requires:	php(core) >= %{php_min_version}
 Requires:	php(ctype)
 Requires:	php(pcre)
 Requires:	php(spl)
+Requires:	php-dirs >= 1.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
