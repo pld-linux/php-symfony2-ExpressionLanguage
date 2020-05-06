@@ -2,13 +2,13 @@
 %define		php_min_version 5.3.9
 Summary:	Symfony2 ExpressionLanguage Component
 Name:		php-symfony2-ExpressionLanguage
-Version:	2.7.8
+Version:	2.8.52
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/expression-language/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	4103476177d778d8af7ea514ea154222
-URL:		http://symfony.com/doc/2.7/components/expression_language/index.html
+# Source0-md5:	6a49d5f36119cb13aa014dbb50dcad84
+URL:		https://symfony.com/doc/2.8/components/expression_language.htmlindex.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
